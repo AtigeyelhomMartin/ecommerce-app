@@ -14,7 +14,7 @@ class Button extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(50),
-        color: Colors.red
+        color: Theme.of(context).colorScheme.primary
       ),
       child: TextButton(
         style: TextButton.styleFrom(
